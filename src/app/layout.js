@@ -5,9 +5,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Safrasul Sementes",
-  description: "Descrição da sua página aqui",
+  description: "Safrasul",
   icons: {
-    icon: "/imgs/logo.svg", // O caminho relativo para o seu ícone
+    icon: "/logo.png",
   },
 };
 
