@@ -11,6 +11,18 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        openSans: ['openSans', 'sans-serif'],
+        effra: ['effra', 'serif'],
+      },
+      fontWeight: {
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semiBold: 600,
+        bold: 700,
+        extraBold: 800,
+      },
     },
   },
   plugins: [],

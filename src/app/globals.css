@@ -2,26 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "openSans";
+  src: url("/fonts/openSans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "openSans";
+  src: url("/fonts/openSans/OpenSans-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "openSans";
+  src: url("/fonts/openSans/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600; /* Semi-Bold weight */
+  font-style: normal;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: "openSans";
+  src: url("/fonts/openSans/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300; /* Light weight */
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "openSans";
+  src: url("/fonts/openSans/OpenSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* Extra-Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "openSans";
+  src: url("/fonts/openSans/OpenSans-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "openSans";
+  src: url("/fonts/openSans/OpenSans-MediumItalic.ttf") format("truetype");
+  font-weight: 500; /* Medium weight */
+  font-style: italic;
+}
+
