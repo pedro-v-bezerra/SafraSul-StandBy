@@ -14,7 +14,7 @@ export default function Index() {
 
   return (
     <>
-      <div className="bg-[url('/imgs/fundo-safrasul.png')] bg-cover w-full h-[650px] md:h-[650px] p-8 relative">
+      <div className="bg-[url('/imgs/fundo-safrasul.png')] bg-cover w-full h-[650px] md:h-[800px] p-8 relative">
         <div className="pb-16 md:pb-24 xl:pb-56 flex flex-col items-center md:items-start">
           <Image
             src='/imgs/logo-branco.png'
@@ -36,7 +36,7 @@ export default function Index() {
             {locations.map((location, index) => (
               <div key={index} className="relative flex justify-center items-center">
                 <p
-                  className="font-openSans text-center text-white tracking-[0.1rem] xl:tracking-[0.3rem] font-light text-xs lg:text-base cursor-pointer"
+                  className="font-openSans text-center text-white md:tracking-[0.1rem] xl:tracking-[0.3rem] font-light text-xs lg:text-base cursor-pointer"
                   onMouseEnter={() => setHoveredLocation(index)}
                   onMouseLeave={() => setHoveredLocation(null)}
                 >
@@ -48,7 +48,7 @@ export default function Index() {
                   </div>
                 )}
                 {index < locations.length - 1 && (
-                  <p className="font-openSans text-white px-4 hidden md:block">|</p>
+                  <p className="font-openSans text-white lg:px-2 xl:px-4 hidden md:block">|</p>
                 )}
               </div>
             ))}
