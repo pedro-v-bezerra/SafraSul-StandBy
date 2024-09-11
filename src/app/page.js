@@ -14,7 +14,7 @@ export default function Index() {
 
   return (
     <>
-      <div className="bg-[url('/imgs/fundo-safrasul.png')] bg-cover w-auto h-screen md:h-[800px] p-8 relative">
+      <div className="bg-[url('/imgs/fundo-safrasul.png')] bg-cover w-auto h-screen md:h-screen p-8 relative">
         <div className="pb-16 md:pb-24 xl:pb-56 flex flex-col items-center md:items-start">
           <Image
             src='/imgs/logo-branco.png'
